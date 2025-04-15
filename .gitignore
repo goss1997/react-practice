@@ -3,6 +3,3 @@ node_modules
 dist
 dist-ssr
 *.local
-.prettierrc
-package-lock.json
-package.json
