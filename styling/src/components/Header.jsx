@@ -4,10 +4,10 @@ export default function Header() {
   return (
     <header className='flex flex-col items-center mt-8 mb-16'>
       <img src={logo} alt='A canvas' className='mb-8 w-44 h-44 object-contain' />
-      <h1 className='text-4xl font-semibold tracking-widest text-center uppercase text-amber-500 font-pacifico'>
+      <h1 className='text-4xl font-semibold tracking-widest text-center uppercase text-amber-600 font-pacifico'>
         ReactArt
       </h1>
-      <p className='stroke-neutral-500'>A community of artists and art-lovers.</p>
+      <p className='stroke-slate-500'>adasddsadasdsadsa!</p>
     </header>
   );
 }

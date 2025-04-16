@@ -1,9 +1,12 @@
-export const content = ['./index.html', './src/**/*.{js,ts,jsx,tsx,html}'];
-export const theme = {
-  extend: {
-    fontFamily: {
-      pacifico: ['Pacifico', 'cursive'],
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  theme: {
+    extend: {
+      fontFamily: {
+        title: ['"Pacifico"', 'cursive'],
+      },
     },
   },
+  plugins: [],
 };
-export const plugins = [];
