@@ -8,5 +8,6 @@
   "arrowParens": "always",
   "bracketSpacing": true,
   "useTabs": false,
-  "endOfLine": "lf"
+  "endOfLine": "lf",
+  "tailwindConfig": "./tailwind.config.js"
 }
